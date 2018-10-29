@@ -1,0 +1,155 @@
+@media only screen and (min-width : 240px) and (max-width : 440px), only screen and (min-device-width : 240px) and (max-device-width : 440px){
+	#content1 > ul > li > a{
+		font-size: 16px;
+	}
+	
+	.che > a > span, #zag1 > div, .pagination a{
+		font-size: 16px;
+	}
+	
+	#sel, #prislanoe span, #navBack{
+		font-size: 14px;
+	}
+	
+	#wrapper{
+		width: 440px;
+		height: 400px;
+	}
+	
+	#head{
+		height: 150px;
+	}
+	
+	#struni1 > ul > li{
+		margin-top: 15px;
+	}
+	
+	#prislanoe{
+		min-height: 240px;
+	}
+	
+	#bloknot1{
+		width: 440px;
+		min-height: 360px;
+		background: url('../images/bloknot.png') repeat-y left;
+		background-size: 400px;
+	}
+	
+	#content1{
+		width: 370px;
+		height: 350px;
+		top: 5px;
+		left: 30px;
+	}
+	
+	#bloknot2{
+		width: 440px;
+		min-height: 360px;
+		background: url('../images/bloknot.png') repeat-y left;
+		background-size: 400px;
+	}
+	
+	#content2{
+		width: 370px;
+		height: 350px;
+		top: 5px;
+		left: 30px;
+	}
+	
+	#bloknot3{
+		width: 440px;
+		min-height: 360px;
+		background: url('../images/bloknot.png') repeat-y left;
+		background-size: 400px;
+	}
+	
+	#content3{
+		width: 370px;
+		height: 350px;
+		top: 5px;
+		left: 30px;
+	}
+	
+	#navBack{
+		position: relative;
+	}
+	
+	#colors, #textSize, #textStyle{
+		width: 118px;
+		top: 165px;
+	}
+	
+	#smileys{
+		top: 209px;
+	}
+	
+	#exAd{
+		top: 0;
+		padding: 1px;
+		font-size: 16px;
+	}
+}
+
+@media only screen and (min-width : 440px) and (max-width : 960px), only screen and (min-device-width : 440px) and (max-device-width : 960px){
+	
+	#wrapper{
+		width: 960px;
+		height: 820px;
+	}
+	
+	#head{
+		height: 360px;
+	}
+	
+	#prislanoe{
+		min-height: 690px;
+	}
+	
+	#bloknot1{
+		width: 790px;
+		min-height: 780px;
+		background: url('../images/bloknot.png') repeat-y left;
+	}
+	
+	#content1{
+		width: 728px;
+		height: 760px;
+		left: 60px;
+		top: 10px;
+	}
+	
+	#bloknot2{
+		width: 790px;
+		min-height: 780px;
+		background: url('../images/bloknot.png') repeat-y left;
+	}
+	
+	#content2{
+		width: 728px;
+		height: 760px;
+		left: 60px;
+		top: 10px;
+	}
+	
+	#bloknot3{
+		width: 790px;
+		min-height: 780px;
+		background: url('../images/bloknot.png') repeat-y left;
+	}
+	
+	#content3{
+		width: 728px;
+		height: 760px;
+		left: 60px;
+		top: 10px;
+	}
+	
+	#navBack{
+		position: relative;
+	}
+	
+	#exAd{
+		width: 160px;
+	}
+	
+}
