@@ -2,6 +2,6 @@
 
 return array(
     'trusted_hosts' => array(
-        'linareiter.zzz.com.ua',
+        'localhost',
     ),
 );

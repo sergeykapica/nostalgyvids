@@ -102,7 +102,7 @@ if (isset($_SERVER['KOHANA_ENV']))
  * - boolean  expose      set the X-Powered-By header                        FALSE
  */
 Kohana::init(array(
-    'base_url' => '',
+    'base_url' => '/nostalgyvids.com/',
     'index_file' => FALSE
 ));
 
@@ -150,7 +150,43 @@ Session::$default = 'native';
  * Set the routes. Each route must have a minimum of a name, a URI and a set of
  * defaults for the URI.
  */
-
+ 
+Route::set('accept_code', 'accept_code')
+	->defaults(array(
+		'controller' => 'Clients',
+		'action'     => 'acceptCode',
+	));
+ 
+Route::set('checkemail', 'checkemail')
+	->defaults(array(
+		'controller' => 'Clients',
+		'action'     => 'checkEmail',
+	));
+ 
+Route::set('checklogin', 'checklogin')
+	->defaults(array(
+		'controller' => 'Clients',
+		'action'     => 'checkLogin',
+	));
+ 
+Route::set('register_in', 'register_in')
+	->defaults(array(
+		'controller' => 'Clients',
+		'action'     => 'registerIn',
+	));
+ 
+Route::set('login_in', 'login_in')
+	->defaults(array(
+		'controller' => 'Clients',
+		'action'     => 'loginIn',
+	));
+ 
+Route::set('get_captcha', 'get_captcha')
+	->defaults(array(
+		'controller' => 'OtherFuncs',
+		'action'     => 'getCaptcha',
+	));
+ 
 Route::set('default', '(<controller>(/<action>(/<id>)))')
 	->defaults(array(
 		'controller' => 'Main',
